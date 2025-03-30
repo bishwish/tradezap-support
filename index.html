@@ -21,6 +21,7 @@
             padding: 20px;
             background: #f8f9fa;
             border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         .contact {
             background: #6B46C1;
@@ -45,6 +46,36 @@
             border-radius: 24px;
             margin: 20px auto;
         }
+        .cta-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .download-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #6B46C1;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .download-button:hover {
+            background: #553C9A;
+        }
+        .legal-links {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .legal-links a {
+            color: #6B46C1;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .legal-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -54,6 +85,10 @@
 
     <h1>TradeZap Support</h1>
     
+    <div class="cta-section">
+        <a href="[App Store Link]" class="download-button">Download on App Store</a>
+    </div>
+
     <div class="section">
         <h2>Getting Started</h2>
         <p>Welcome to TradeZap! Here's how to get started:</p>
@@ -86,6 +121,49 @@
         <p>Track your trading performance with beautiful charts and insights.</p>
     </div>
 
-    <!-- Rest of your content remains the same -->
+    <div class="section">
+        <h2>Subscription</h2>
+        <p>TradeZap offers two subscription options:</p>
+        <ul>
+            <li>Monthly: $4.99/month</li>
+            <li>Yearly: $39.99/year (Save 33%)</li>
+        </ul>
+        <p>Subscription benefits include:</p>
+        <ul>
+            <li>Advanced analytics and insights</li>
+            <li>Unlimited trade history</li>
+            <li>Premium features and updates</li>
+            <li>Priority support</li>
+            <li>Ad-free experience</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>FAQ</h2>
+        <h3>How do I track a trade?</h3>
+        <p>Tap the + button on the home screen, fill in the trade details, and save.</p>
+        
+        <h3>How do I view my performance?</h3>
+        <p>Go to the Statistics tab to see your P/L charts and analytics.</p>
+        
+        <h3>How do I manage my subscription?</h3>
+        <p>Go to Settings > Subscription to manage your subscription.</p>
+    </div>
+
+    <div class="contact">
+        <h2>Contact Support</h2>
+        <p>Need help? Contact us at:</p>
+        <p>Email: support@tradezap.app</p>
+        <p>We typically respond within 24 hours.</p>
+    </div>
+
+    <div class="section">
+        <h2>Legal</h2>
+        <div class="legal-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="subscription.html">Subscription Terms</a>
+        </div>
+    </div>
 </body>
 </html>
